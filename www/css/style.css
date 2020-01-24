@@ -1,18 +1,97 @@
-.header{
-background: yellow;
-height: 20%;
-width: 100%;
-float: left;
+@charset "UTF-8";
+*{
+  margin: 0;
+  padding: 0;
+  outline: none;
 }
-.main{
-  background: red;
-  height: 80%;
+body{
   width: 100%;
+  height: 100%;
+  color:#333;
+  background: #f7f7f7;
+  font-size: 1em;
+  font-family: "Segoe UI", sans-serif;
+  line-height: 135%;
+}
+
+header, footer{
+  width: 98%;
+  background-color: #fff;
+  min-height: 50px;
+}
+
+header{
+  border-bottom: 2px solid silver;
+  padding: 1%;
+}
+
+#logo{
+  font-size: 2em;
+  font-family: Comic Sans MS, sans-serif;
   float: left;
 }
-.footer{
-  background: black;
-  height: 20%;
-  width: 100%;
-  float: left;
+
+.regAndAuth{
+  font-size: 1.5em;
+  font-family: Comic Sans MS, sans-serif;
+  vertical-align: middle;
+  margin-right: 20px;
 }
+
+.right{
+  float: right;
+}
+
+
+
+.addAds{
+  padding: 5px;
+  background-color: green;
+  border: 1px;
+  border-radius: 10px;
+  margin-left: 50px;
+}
+#addAds{
+  color: white;
+  font-size: 1.5em;
+  font-family: Comic Sans MS, sans-serif;
+ }
+
+
+footer{
+  border-top: 2px solid silver;
+  margin-top: 10px;
+  padding: 1%;
+}
+
+/*Стилі для посилань*/
+a{
+  color:#f48b8b;
+  text-decoration: none;
+}
+
+/*Стилі коли наводити на посилання*/
+a:hover{
+  color:#8b9ff5;
+  text-decoration: none;
+  transition: all.5s ease;
+  -moz-transition: all.5s ease;
+  -webkit-transition: all.5s ease;
+  -ms-transition: all.5s ease;
+}
+
+/*Стилі для натисненого посилання*/
+a:active{
+  color:#8ce4a6;
+}
+
+/*Стилі для зображень*/
+img{
+  max-width: 100%;
+  height: auto;
+  width: auto/9;
+}
+
+/*Виділення*/
+::selection{background: #f58b8b; color: #fff;}
+::-moz-selection{background: #f58b8b; color: #fff;}
