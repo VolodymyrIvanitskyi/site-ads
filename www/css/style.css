@@ -17,12 +17,13 @@ body{
 header, footer{
   width: 98%;
   background-color: #fff;
-  min-height: 50px;
+
 }
 
 header{
   border-bottom: 2px solid silver;
   padding: 1%;
+  min-height: 50px;
 }
 
 #logo{
@@ -41,6 +42,9 @@ header{
 .right{
   float: right;
 }
+.left{
+  float: left;
+}
 
 
 
@@ -49,6 +53,8 @@ header{
   background-color: green;
   border: 1px;
   border-radius: 10px;
+  float: right;
+  margin-right: 50px;
   margin-left: 50px;
 }
 #addAds{
@@ -57,11 +63,23 @@ header{
   font-family: Comic Sans MS, sans-serif;
  }
 
-
+/*Стилі для футера*/
 footer{
   border-top: 2px solid silver;
   margin-top: 10px;
   padding: 1%;
+  padding-bottom: 3%;
+  min-height: 20px;
+}
+
+footer img{
+  float: right;
+}
+
+.imgref{
+  width: 15%;
+  padding: 5px;
+
 }
 
 /*Стилі для посилань*/
