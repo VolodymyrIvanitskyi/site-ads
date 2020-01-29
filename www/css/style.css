@@ -20,6 +20,7 @@ body{
 header, footer{
   width: 98%;
   background-color: #fff;
+  float: left;
 
 }
 
@@ -42,12 +43,9 @@ header{
   margin-right: 20px;
 }
 
-.right{
-  float: right;
-}
-.left{
-  float: left;
-}
+.right{float: right;}
+.left{float: left;}
+.clear{clear: both;}
 
 .addAds{
   padding: 5px;
@@ -63,7 +61,63 @@ header{
   font-size: 1.5em;
   font-family: Comic Sans MS, sans-serif;
  }
+/*Стилі для меню*/
 
+.menu{
+  color: #666;
+  font-family: Comic Sans Ms, sans-serif;
+  font-size: 1.7em;
+}
+/*hr{
+  display: block;
+  border: 0;
+  height: 1px;
+  border-top: 1px solid #ccc;
+  padding: 0;
+}
+.menu hr{
+  width: 500px;
+  max-width: 100%;
+  margin-top: 5px;
+  margin-bottom: 10px;*/
+}
+.center{
+  float: left;
+  width: 100%;
+}
+.searchBlock{
+  margin-left: 15%;
+  width: 69%;
+  min-height: 40px;
+  border-radius: 5px;
+  box-sizing: border-box;
+  background-color: #34a8eb;
+}
+/*Стилі для розділів*/
+
+.wrapper{
+  float: left;
+  width: 100%;
+}
+.sections{
+  float: left;
+  width: 70%;
+  margin-left: 15%;
+  margin-top: 20px;
+}
+.section{
+  float: left;
+  width: 24%;
+  border: 1px solid silver;
+  box-sizing: border-box;
+  border-radius: 5px;
+  background-color: #fafafa;
+  margin-right: 1%;
+  min-height: 25px;
+}
+.imageSections{
+  float: left;
+}
 /*Стилі для футера*/
 footer{
   border-top: 2px solid silver;
@@ -75,16 +129,18 @@ footer{
 
 .footerLogo{
   float: left;
+  padding-right: 5px;
 }
 
 footer img{
   float: right;
   /*width: 15%;*/
+
 }
 
 .imgref{
   margin-left: 5px;
-  width: 15%;
+  /*width: 15%;*/
 /*  float: right;*/
 }
 
