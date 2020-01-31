@@ -34,7 +34,13 @@ header{
   font-size: 2em;
   font-family: Comic Sans MS, sans-serif;
   float: left;
+  /*#1D5C6E, #892EB1, #E082F4, #CD94FE, #13EAFE*/
 }
+#logo #logoD{color: #170541}
+#logo #logoO{color: #0A258C}
+#logo #logoS{color: #038875}
+#logo #logoK{color: #1BB8CB}
+#logo #logoA{color: #3EBAD6}
 
 .regAndAuth{
   font-size: 1.5em;
@@ -49,7 +55,7 @@ header{
 
 .addAds{
   padding: 5px;
-  background-color: green;
+  background-color: #2b7570;
   border: 1px;
   border-radius: 10px;
   float: right;
@@ -57,7 +63,7 @@ header{
   margin-left: 50px;
 }
 #addAds{
-  color: white;
+  color: #fff;
   font-size: 1.5em;
   font-family: Comic Sans MS, sans-serif;
  }
@@ -67,19 +73,6 @@ header{
   color: #666;
   font-family: Comic Sans Ms, sans-serif;
   font-size: 1.7em;
-}
-/*hr{
-  display: block;
-  border: 0;
-  height: 1px;
-  border-top: 1px solid #ccc;
-  padding: 0;
-}
-.menu hr{
-  width: 500px;
-  max-width: 100%;
-  margin-top: 5px;
-  margin-bottom: 10px;*/
 }
 .center{
   float: left;
@@ -91,7 +84,7 @@ header{
   min-height: 40px;
   border-radius: 5px;
   box-sizing: border-box;
-  background-color: green;
+  background-color: #2b7570;
 
   color: #fff;
   font-size: 1.5em;
@@ -115,6 +108,9 @@ header{
   width: 24%;
   margin-right: 1%;
   min-height: 25px;
+  color:#2b7570;
+  font-size: 1.2em;
+  font-family: Comic Sans Ms, sans-serif;
 }
 .imageSections{
   float: left;
