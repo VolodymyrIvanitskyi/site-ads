@@ -91,8 +91,13 @@ header{
   min-height: 40px;
   border-radius: 5px;
   box-sizing: border-box;
-  background-color: #34a8eb;
+  background-color: green;
+
+  color: #fff;
+  font-size: 1.5em;
+  font-family: Comic Sans Ms, sans-serif;
 }
+
 /*Стилі для розділів*/
 
 .wrapper{
@@ -108,16 +113,100 @@ header{
 .section{
   float: left;
   width: 24%;
-  border: 1px solid silver;
-  box-sizing: border-box;
-  border-radius: 5px;
-  background-color: #fafafa;
   margin-right: 1%;
   min-height: 25px;
 }
 .imageSections{
   float: left;
 }
+
+/*Стилі для вибірки оголошень*/
+.AdsBlock{
+  width: 100%;
+  float: left;
+}
+/*Стилі для вибірки Віп оголошень*/
+#VipAdText{
+  color: red;
+  font-size: 1.5em;
+  font-family: Comic Sans Ms, sans-serif;
+  margin-bottom: 10px;
+}
+.VipAds{
+  float: left;
+  width: 70%;
+  margin-left: 15%;
+  margin-top: 20px;
+}
+.VipAd{
+  float: left;
+  width: 19%;
+  margin-right: 1%;
+  min-height: 180px;
+  border: 1px solid silver;
+  box-sizing: border-box;
+  border-radius: 5px;
+  background-color: #fafafa;
+
+  color: red;
+  font-size: 1.2em;
+  font-family: Comic Sans Ms, sans-serif;
+}
+/*Стилі для вибірки Топ оголошень*/
+#topAdText{
+  color: yellow;
+  font-size: 1.5em;
+  font-family: Comic Sans Ms, sans-serif;
+  margin-bottom: 10px;
+}
+.topAds{
+  float: left;
+  width: 70%;
+  margin-left: 15%;
+  margin-top: 20px;
+}
+.topAd{
+  float: left;
+  width: 19%;
+  margin-right: 1%;
+  min-height: 180px;
+  border: 1px solid silver;
+  box-sizing: border-box;
+  border-radius: 5px;
+  background-color: #fafafa;
+
+  color: yellow;
+  font-size: 1.2em;
+  font-family: Comic Sans Ms, sans-serif;
+}
+/*Стилі для вибірки нових оголошень*/
+#NewAdText{
+  color: green;
+  font-size: 1.5em;
+  font-family: Comic Sans Ms, sans-serif;
+  margin-bottom: 10px;
+}
+.NewAds{
+  float: left;
+  width: 70%;
+  margin-left: 15%;
+  margin-top: 20px;
+}
+.NewAd{
+  float: left;
+  width: 19%;
+  margin-right: 1%;
+  min-height: 180px;
+  border: 1px solid silver;
+  box-sizing: border-box;
+  border-radius: 5px;
+  background-color: #fafafa;
+
+  color: green;
+  font-size: 1.2em;
+  font-family: Comic Sans Ms, sans-serif;
+}
+
 /*Стилі для футера*/
 footer{
   border-top: 2px solid silver;
