@@ -47,6 +47,7 @@ header{
   font-family: Comic Sans MS, sans-serif;
   vertical-align: middle;
   margin-right: 20px;
+  color: #f2bf07;
 }
 
 .right{float: right;}
@@ -122,11 +123,16 @@ header{
   float: left;
 }
 /*Стилі для вибірки Віп оголошень*/
-#VipAdText{
-  color: red;
+#VipAdText, #topAdText, #NewAdText{
   font-size: 1.5em;
   font-family: Comic Sans Ms, sans-serif;
   margin-bottom: 10px;
+}
+#VipAdText #Vip{
+  color: #54297d;
+}
+#VipAdText #VipVip{
+  color: #2b7570;
 }
 .VipAds{
   float: left;
@@ -144,16 +150,16 @@ header{
   border-radius: 5px;
   background-color: #fafafa;
 
-  color: red;
+  color: #2b7570;
   font-size: 1.2em;
   font-family: Comic Sans Ms, sans-serif;
 }
 /*Стилі для вибірки Топ оголошень*/
-#topAdText{
-  color: yellow;
-  font-size: 1.5em;
-  font-family: Comic Sans Ms, sans-serif;
-  margin-bottom: 10px;
+#topAdText #Top{
+  color: #f2bf07;
+}
+#topAdText #TopTop{
+  color: #2b7570;
 }
 .topAds{
   float: left;
@@ -171,16 +177,16 @@ header{
   border-radius: 5px;
   background-color: #fafafa;
 
-  color: yellow;
+  color: #2b7570;
   font-size: 1.2em;
   font-family: Comic Sans Ms, sans-serif;
 }
 /*Стилі для вибірки нових оголошень*/
-#NewAdText{
+#NewAdText #New{
   color: green;
-  font-size: 1.5em;
-  font-family: Comic Sans Ms, sans-serif;
-  margin-bottom: 10px;
+}
+#NewAdText #NewNew{
+  color: #2b7570;
 }
 .NewAds{
   float: left;
@@ -198,7 +204,7 @@ header{
   border-radius: 5px;
   background-color: #fafafa;
 
-  color: green;
+  color: #2b7570;
   font-size: 1.2em;
   font-family: Comic Sans Ms, sans-serif;
 }
