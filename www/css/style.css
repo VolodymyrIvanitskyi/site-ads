@@ -81,7 +81,7 @@ header{
 }
 .searchBlock{
   margin-left: 15%;
-  width: 69%;
+  width: 70%;
   min-height: 40px;
   border-radius: 5px;
   box-sizing: border-box;
@@ -249,25 +249,33 @@ footer,#pageWrap:after{
 
 /*Стилі для посилань*/
 a{
-  color:#f48b8b;
   text-decoration: none;
 }
 
 /*Стилі коли наводити на посилання*/
-a:hover{
-  color:#8b9ff5;
+.regAndAuth:hover{
+  /*color:#8b9ff5;*/
+  color: #2b7570;
   text-decoration: none;
-  transition: all.5s ease;
-  -moz-transition: all.5s ease;
-  -webkit-transition: all.5s ease;
-  -ms-transition: all.5s ease;
+  transition: all.2s ease;
+  -moz-transition: all.2s ease;
+  -webkit-transition: all.2s ease;
+  -ms-transition: all.2s ease;
 }
 
 /*Стилі для натисненого посилання*/
-a:active{
+.regAndAuth:active{
   color:#8ce4a6;
 }
 
+.section:hover{
+  color: #f2bf07;
+  text-decoration: none;
+  transition: all.2s ease;
+  -moz-transition: all.2s ease;
+  -webkit-transition: all.2s ease;
+  -ms-transition: all.2s ease;
+}
 /*Стилі для зображень*/
 img{
   max-width: 100%;
