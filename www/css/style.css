@@ -1,4 +1,4 @@
-@charset "UTF-8";
+@charset "UTF-8";      /*Головні кольори: відтінок жовтого - #f2bf07 відтінок бірюзового - #2b7570*/
 *{
   margin: 0;
   padding: 0;
@@ -68,7 +68,7 @@ header{
   font-size: 1.5em;
   font-family: Comic Sans MS, sans-serif;
  }
-/*Стилі для меню*/
+                                                                      /*Стилі для меню*/
 
 .menu{
   color: #666;
@@ -82,7 +82,7 @@ header{
 .searchBlock{
   margin-left: 15%;
   width: 70%;
-  min-height: 40px;
+  min-height: 60px;
   border-radius: 5px;
   box-sizing: border-box;
   background-color: #2b7570;
@@ -92,8 +92,7 @@ header{
   font-family: Comic Sans Ms, sans-serif;
 }
 
-/*Стилі для розділів*/
-
+                                                                   /*Стилі для розділів*/
 .wrapper{
   float: left;
   width: 100%;
@@ -122,7 +121,7 @@ header{
   width: 100%;
   float: left;
 }
-/*Стилі для вибірки Віп оголошень*/
+                                                            /*Стилі для вибірки Віп оголошень*/
 #VipAdText, #topAdText, #NewAdText{
   font-size: 1.5em;
   font-family: Comic Sans Ms, sans-serif;
@@ -154,7 +153,7 @@ header{
   font-size: 1.2em;
   font-family: Comic Sans Ms, sans-serif;
 }
-/*Стилі для вибірки Топ оголошень*/
+                                                                /*Стилі для вибірки Топ оголошень*/
 #topAdText #Top{
   color: #f2bf07;
 }
@@ -181,7 +180,7 @@ header{
   font-size: 1.2em;
   font-family: Comic Sans Ms, sans-serif;
 }
-/*Стилі для вибірки нових оголошень*/
+                                                               /*Стилі для вибірки нових оголошень*/
 #NewAdText #New{
   color: green;
 }
@@ -209,7 +208,7 @@ header{
   font-family: Comic Sans Ms, sans-serif;
 }
 
-/*Стилі для футера*/
+                                                                     /*Стилі для футера*/
 footer{
   border-top: 2px solid silver;
   margin-top: 10px;
@@ -225,14 +224,10 @@ footer{
 
 footer img{
   float: right;
-  /*width: 15%;*/
-
 }
 
 .imgref{
   margin-left: 5px;
-  /*width: 15%;*/
-/*  float: right;*/
 }
 
 #pageWrap:after{
@@ -252,7 +247,7 @@ a{
   text-decoration: none;
 }
 
-/*Стилі коли наводити на посилання*/
+                                                            /*Стилі коли наводити на посилання*/
 .regAndAuth:hover{
   /*color:#8b9ff5;*/
   color: #2b7570;
@@ -263,7 +258,7 @@ a{
   -ms-transition: all.2s ease;
 }
 
-/*Стилі для натисненого посилання*/
+                                                              /*Стилі для натисненого посилання*/
 .regAndAuth:active{
   color:#8ce4a6;
 }
@@ -283,11 +278,11 @@ img{
   width: auto/9;
 }
 
-/*Виділення*/
-::selection{background: #f58b8b; color: #fff;}
-::-moz-selection{background: #f58b8b; color: #fff;}
+                                                                         /*Виділення*/
+::selection{background: #2b7570; color: #fff;}
+::-moz-selection{background: #2b7570; color: #fff;}
 
-/*Стилі для сторінки з реєстрацією та авторизацією*/
+                                                   /*Стилі для сторінки з реєстрацією та авторизацією*/
 .register, .authorization{
   float: left;
   width: 30%;
@@ -295,7 +290,7 @@ img{
   margin-top: 40px;
   border-radius: 5px;
   box-sizing: border-box;
-  border: 1px solid silver;
+  border: 1px solid #2b7570;
   min-height: 400px;
   background-color: #fff;
 }
@@ -325,16 +320,71 @@ img{
   height: 100%;
   box-sizing: border-box;
   background-color: #fafafa;
-  border-bottom: 1px solid silver;
+  border-bottom: 1px solid #2b7570;
   padding-top: 8px;
 }
 #authText{
   float: left;
-  border-right: 1px solid silver;
+  border-right: 1px solid #2b7570;
   border-top-left-radius: 5px;
 }
 #textReg{
   float: right;
-  border-left: 1px solid silver;
+  border-left: 1px solid #2b7570;
   border-top-right-radius: 5px;
+}
+#authAndRegText a:hover{
+  color: #f2bf07;
+  text-decoration: none;
+  transition: all.2s ease;
+  -moz-transition: all.2s ease;
+  -webkit-transition: all.2s ease;
+  -ms-transition: all.2s ease;
+}
+#authAndRegText a{color: #2b7570;}
+
+input[type=text]{
+  padding: 2%;
+  float: left;
+  border-radius: 5px;
+  border: 2px solid #2b7570;
+  width: 56%;
+  margin-left: 20%;
+  margin-top: 5%;
+}
+input[type=text]:focus{border: 2px solid #f2bf07;}
+
+input[type=password]{
+  padding: 2%;
+  float: left;
+  border-radius: 5px;
+  border: 2px solid #2b7570;
+  width: 56%;
+  margin-left: 20%;
+  margin-top: 3%;
+}
+input[type=password]:focus{border: 2px solid #f2bf07;}
+
+.authButton{
+  padding: 2%;
+  float: left;
+  border-radius: 5px;
+  border: 2px solid #2b7570;
+  width: 56%;
+  margin-left: 20%;
+  margin-top: 5%;
+  color: #2b7570;
+}
+.authBottonSpace{
+  width: 100%;
+  float: left;
+}
+.authButton:hover{color: #f2bf07}                                                  /*Поставити затримку шоб плавніше зявлявся жовтий колір при наведенні*/
+.authLogin{
+  width: 100%
+  float: left;
+}
+.authPassword{
+  width: 100%
+  float: left;
 }

@@ -16,10 +16,10 @@
           </span>
           <span class="right">
             <span>
-              <a href="register.html" title="Зареєструватися" class="regAndAuth">Реєстрація</a>
+              <a href="auth.html" title="Ввійти" class="regAndAuth">Вхід</a>
             </span>
             <span>
-              <a href="auth.html" title="Ввійти" class="regAndAuth">Вхід</a>
+              <a href="register.html" title="Зареєструватися" class="regAndAuth">Реєстрація</a>
             </span>
           </span>
           <span class="addAds">
@@ -32,11 +32,17 @@
         <div class="wrapper">
           <div class="authorization">
             <div id="authAndRegText">
-              <span id="textAuth"><center>Увійти</center></span><span id="textReg"><center>Реєстрація</center></span>
+              <span id="textAuth"><center><a href="auth.html">Увійти</a></center></span><span id="textReg"><center><a href="register.html">Реєстрація</a></center></span>
             </div>
-            
+            <form class="authLoginPassword" action="index.html" method="post">
+              <div class="authButtonSpace"><a href="#"><div class="authButton"><center>Увійти через Google+</center></div></a></div>
+              <div class="authLogin"><input type="text" placeholder="Номер телефону" maxlength="12"></div>
+              <div class="authPassword"><input type="password" placeholder="Пароль" maxlength="32"></div>
+              <div class="authButtonSpace"><a href="#"><div class="authButton"><center>Увійти</center></div></a></div>
+            </form>
           </div>
         </div>
+
 
       </div>
     <footer>
