@@ -13,7 +13,7 @@ body{
   color:#333;
   background: #f7f7f7;
   font-size: 1em;
-  font-family: "Segoe UI", sans-serif;
+  font-family: Comic Sans MS, sans-serif;
   line-height: 135%;
 }
 
@@ -286,3 +286,55 @@ img{
 /*Виділення*/
 ::selection{background: #f58b8b; color: #fff;}
 ::-moz-selection{background: #f58b8b; color: #fff;}
+
+/*Стилі для сторінки з реєстрацією та авторизацією*/
+.register, .authorization{
+  float: left;
+  width: 30%;
+  margin-left: 35%;
+  margin-top: 40px;
+  border-radius: 5px;
+  box-sizing: border-box;
+  border: 1px solid silver;
+  min-height: 400px;
+  background-color: #fff;
+}
+#authAndRegText{
+  float: left;
+  width: 100%;
+  height: 40px;
+  font-size: 1.2em;
+}
+
+#regText, #textAuth{
+  width: 50%;
+  height: 100%;
+  box-sizing: border-box;
+  padding-top: 8px;
+}
+#regText{
+  float: right;
+  border-top-right-radius: 5px;
+}
+#textAuth{
+  float: left;
+  border-top-left-radius: 5px;
+}
+#authText, #textReg{
+  width: 50%;
+  height: 100%;
+  box-sizing: border-box;
+  background-color: #fafafa;
+  border-bottom: 1px solid silver;
+  padding-top: 8px;
+}
+#authText{
+  float: left;
+  border-right: 1px solid silver;
+  border-top-left-radius: 5px;
+}
+#textReg{
+  float: right;
+  border-left: 1px solid silver;
+  border-top-right-radius: 5px;
+}
