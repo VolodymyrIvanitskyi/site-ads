@@ -101,19 +101,23 @@ header{
   float: left;
   width: 70%;
   margin-left: 15%;
-  margin-top: 20px;
+  margin-top: 15px;
 }
 .section{
   float: left;
-  width: 24%;
+  width: 22%;
   margin-right: 1%;
-  min-height: 25px;
+  /*min-height: 25px;*/
   color:#2b7570;
   font-size: 1.2em;
   font-family: Comic Sans Ms, sans-serif;
+  padding: 1%;
+
+  /*border: 1px solid #2b7570;*/
 }
 .imageSections{
   float: left;
+  vertical-align: middle;
 }
 
 /*Стилі для вибірки оголошень*/
@@ -350,7 +354,7 @@ input[type=text]{
   border: 2px solid #2b7570;
   width: 56%;
   margin-left: 20%;
-  margin-top: 5%;
+  margin-top: 3%;
 }
 input[type=text]:focus{border: 2px solid #f2bf07;}
 
@@ -374,6 +378,7 @@ input[type=password]:focus{border: 2px solid #f2bf07;}
   margin-left: 20%;
   margin-top: 5%;
   color: #2b7570;
+  margin-bottom: 2%;
 }
 .authBottonSpace{
   width: 100%;
